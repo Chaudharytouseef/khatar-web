@@ -1,0 +1,1178 @@
+@font-face {
+    font-family: 'BladiOneSlab4F-BoldItalic';
+    src: url(../fonts/Bladi-One-Slab-4F-Bold-Italic.otf);
+}
+.portfolio-earthvitality-first-section{
+    background-color: rgba(255, 250, 240, 1);
+}
+.portfolio-tamin-first-section{
+    background-color: rgba(255, 255, 255, 1);
+}
+.earthvitalty-portfolio-first-section-image{
+    width: 100%;
+    
+}
+.earthvitalty-portfolio-first-section-heading{
+    font-family: 'Agrandir-TextBold';
+    font-size: 88px;
+    color: rgba(102, 33, 19, 1);
+    font-weight: 800;
+    line-height: 120px;
+}
+.portfolio-earthvitality-second-section{
+    background-color: rgba(209, 231, 247, 1);
+
+}
+.portfolio-earthvitality-second-section{
+    background-color: rgba(238, 217, 112, 1);
+    overflow: hidden;
+
+}
+.portfolio-earthvitality-second-section-paragraph{
+    text-align: center;
+    font-family: 'Agrandir-Regular';
+    font-size: 31px;
+    line-height: 41.8px;
+    padding: 100px 36px;
+    font-weight: 400;
+    color: rgba(42, 43, 45, 1);
+    margin: 0px;
+}
+.portfolio-eleysa-second-section-paragraph{
+    text-align: center;
+    font-family: 'Agrandir-Regular';
+    font-size: 29px;
+    line-height: 41.8px;
+    padding: 100px 36px;
+    font-weight: 400;
+    color: rgba(118, 120, 117, 1);
+    margin: 0px;
+}
+.portfolio-passeig-second-section-paragraph{
+    text-align: center;
+    font-family: 'Agrandir-Regular';
+    font-size: 27px;
+    line-height: 41.8px;
+    padding: 100px 36px;
+    font-weight: 400;
+    color: rgba(245, 245, 239, 1);
+    margin: 0px;
+}
+
+.portfolio-earthvitality-third-section{
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.portfolio-eleysa-third-section{
+    background-color: rgba(255, 255, 243, 1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-earthvitality-third-section-image{
+ width: 100%;
+ transition: all 1s ease;
+ height: 100%;
+}
+.portfolio-eleysa-third-section-image{
+ width: 100%;
+ transition: all 1s ease;
+ height: 100%;
+}
+.portfolio-eleysa-third-section:hover .portfolio-eleysa-third-section-image{
+    scale: 0.8;
+    border-radius: 24px;
+}
+.portfolio-eleysa-third-image{
+    width: 100%;
+}
+.portfolio-earthvitality-third-section-image:hover{
+ scale: 0.8;
+}
+.earthvitalty-portfolio-fourth-section-image{
+    width: 100%;
+}
+.earthvitalty-portfolio-fifth-section-image{
+    width: 100%;
+}
+.portfolio-earthvitality-fourth-section{
+    background-color: rgba(255, 250, 240, 1);
+    overflow: hidden;
+}
+.portfolio-earthvitality-fourth-section{
+    background-color: rgba(255, 255, 243, 1);
+}
+.portfolio-earthvitality-fourth-section-paragraph{
+    font-family: 'BladiOneSlab4F-BoldItalic';
+    font-size: 49px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 225px;
+letter-spacing: 0.12em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(93, 137, 113, 1);
+
+}
+.eleysa-sixth-section-col-1{
+    overflow: hidden;
+}
+.sixth-section-earth-vitality{
+    background-color: rgba(93, 137, 113, 1);
+    position: relative;
+    /* height: 529px; */
+}
+.sixth-section-earth-vitality-row{
+    position: relative;
+    overflow: hidden;
+    /* height: 529px; */
+}
+
+.sixth-section-earth-vitality-upper-row{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0px;
+    background-color: rgba(93, 137, 113, 1);
+    transition: all 1s ease;
+}
+.sixth-section-earth-vitality-row:hover .sixth-section-earth-vitality-upper-row{
+    position: absolute;
+    width: 100%;
+    transform: translateX(-100%);
+    height: 100%;
+    left: 0px;
+    background-color:rgba(93, 137, 113, 1) ;
+}
+.image-responsive-sixth-section-earthvitaliity{
+    width: 100%;
+   height: 100%;
+}
+.image-responsive-sixth-upper-section-earthvitaliity{
+ 
+    width: 100%;
+}
+.p-responsive-sixth-upper-section-earthvitaliity{
+    font-family: 'Agrandir-ThinItalic';
+font-size: 45px;
+font-style: italic;
+font-weight: 100;
+line-height: 58px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.p-responsive-sixth-upper-section-winne{
+    font-family: 'Agrandir-ThinItalic';
+font-size: 78px;
+font-style: italic;
+font-weight: 100;
+line-height: 100.6px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.eleysa-sixth-section-paragraph{
+    font-family: 'Agrandir-ThinItalic';
+font-size: 34px;
+font-style: italic;
+font-weight: 100;
+line-height: 40.8px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+
+.eight-section-earthvitality-img{
+    width: 100%;
+}
+.eight-section-earthvitality{
+    background-color: white;
+}
+.col-responsive-sixth-upper-section-earthvitaliity{
+    display: flex;
+    align-items: center;
+}
+.sixth-section-earth-vitality-row:hover .col2-responsive-sixth-upper-section-earthvitaliity{
+ 
+    display: flex;
+    transform: translateX(294%);
+    align-items: center;
+    opacity: 0;
+}
+ .col2-responsive-sixth-upper-section-earthvitaliity{
+ opacity: 1;
+    transition: all 1s ease;
+}
+
+.second-row-sixth-section-earthvitality{
+    height: 100%;
+}
+.seventh-section-earthvitality{
+    background-color: rgba(237, 233, 226, 1);
+}
+.seventh-section-earthvitality-image{
+    width: 100%;
+
+}
+/* scooby */
+.portfolio-scooby-first-section{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+.portfolio-scooby-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 122, 255, 1);
+    
+}
+.portfolio-Earth-Vitality-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(176, 140, 120, 1);
+    
+}
+.portfolio-wagie-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+    
+}
+.portfolio-Winne-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(254, 72, 72, 1);
+    
+}
+.portfolio-floating-bags-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(215, 105, 64, 1);
+    
+}
+.portfolio-taamin-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(0, 0, 0, 1);
+    
+}
+.portfolio-passeig-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(136, 94, 70, 1);
+    
+}
+.portfolio-kosy-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(102, 33, 19, 1);
+    
+}
+
+.portfolio-eleysa-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(176, 140, 120, 1);
+    
+}
+
+
+.portfolio-kallochi-design-first-section-heading{
+  
+font-size: 88px;
+font-weight: 800;
+line-height: 120px;
+font-family: 'Agrandir-TextBold';
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(136, 94, 70, 1);
+    
+}
+.portfolio-wagie-second-section{
+    background-color: rgba(242, 242, 242, 1);
+}
+.portfolio-scooby-second-section{
+    background-color: rgba(144, 172, 237, 1);
+}
+.portfolio-Earth-Vitality-second-section{
+    background-color: rgba(90, 162, 132, 1)
+}
+.overflow-hidden-c{
+    overflow: hidden;
+}
+.portfolio-Winne-second-section{
+    background-color: rgba(113, 154, 23, 1);
+}
+.portfolio-floating-bags-design-second-section{ 
+    background-color:rgba(34, 102, 128, 1);
+}
+.portfolio-taamin-design-second-section{ 
+    background-color:rgba(32, 154, 87, 1);
+}
+.portfolio-passeig-design-second-section{ 
+    background-color:rgba(58, 198, 227, 1);
+}
+.portfolio-kosy-design-second-section{ 
+    background-color:rgba(152, 195, 198, 1);
+}
+.portfolio-eleysa-design-second-section{ 
+    background-color:rgba(243, 224, 209, 1);
+}
+.portfolio-kallochi-design-second-section{ 
+    background-color:rgba(225, 223, 219, 1);
+}
+
+.portfolio-scooby-second-section-video{
+    width: 100%;
+    /* height: 692px; */
+}
+.third-section-scooby{
+    margin-top: 81px;
+    background-color: rgba(234, 0, 0, 1);
+}
+.winne-second-section-img{
+    width: 100%;
+}
+.portfolio-design-winnie-third-section{
+    background-color: rgba(251, 196, 52, 1);
+}
+.winne-third-section-image{
+    width: 100%;
+    transition: all 1.3s ease;
+    scale:0.8;
+}
+.portfolio-design-passeig-third-section{
+    position: relative;
+    background-color: rgba(245, 245, 239, 1);
+}
+.tammin-third-section-image{
+    width: 100%;
+    transition: all 1.3s ease;
+    scale:0.8;
+}
+.passeig-third-section-image{
+    width: 100%;
+    transition: all 1.3s ease;
+    scale:0.7;
+}
+.portfolio-design-passeig-third-section:hover  .passeig-third-section-image{
+    width: 100%;
+    transition: all 1.3s ease;
+    scale:0.9;
+    filter: brightness(40%);
+}
+.passeig-third-col::after{
+    content: 'PASSEIG';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Agrandir-Regular';
+    font-size: 62px;
+    font-weight: 400;
+    /* line-height: 120px; */
+    margin-left: 22px;
+    letter-spacing: 0.46em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: all 1.3s ease;
+}
+.kosy-third-col::after{
+    content: 'KOSY';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Agrandir-Regular';
+    font-size: 80px;
+    font-weight: 400;
+    /* line-height: 120px; */
+    margin-left: 22px;
+    letter-spacing: 0.46em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: all 1.3s ease;
+}
+.taamin-third-col::after {
+    content: 'TAAMIN';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    font-family: 'Agrandir-Regular';
+    font-size: 88px;
+    font-weight: 400;
+    /* line-height: 120px; */
+    margin-left: 22px;
+    letter-spacing: 0.46em;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    transition: all 1.3s ease;
+    
+}
+.portfolio-design-passeig-third-section:hover .passeig-third-col::after{
+    scale: 1.3;
+    margin-left: 95px;
+    margin-top: 10px;
+}
+.portfolio-design-taamin-third-section:hover .taamin-third-col::after {
+scale: 1.1;
+    margin-left: 57px;
+
+}
+@media(max-width:1200px){
+    .passeig-third-col::after {
+        font-size: 52px;
+        margin-left: 1.5vw;
+    }
+    .portfolio-design-passeig-third-section:hover .passeig-third-col::after{
+        scale: 1.2;
+        margin-left: 5vw;
+        margin-top: 10px;
+    }
+    .taamin-third-col::after {
+        font-size: 70px;
+        margin-left: 2vw;
+    }
+    .portfolio-design-taamin-third-section:hover .taamin-third-col::after {
+    scale: 1.1;
+    margin-left: 4.5vw;
+    
+    }
+
+}
+@media (max-width: 990px) {
+    .passeig-third-col::after {
+        font-size: 38px;
+        margin-left: 1.5vw;
+    }
+    .portfolio-design-passeig-third-section:hover .passeig-third-col::after{
+        scale: 1.2;
+        margin-left: 5vw;
+        margin-top: 10px;
+    }
+    .taamin-third-col::after {
+        font-size: 54px;
+        margin-left: 2vw;
+    }
+}
+@media (max-width: 768px) {
+    .passeig-third-col::after {
+        font-size: 28px;
+        margin-left: 1vw;
+    }
+    .portfolio-design-passeig-third-section:hover .passeig-third-col::after{
+        scale: 1.2;
+        margin-left: 4vw;
+        margin-top: 10px;
+    }
+    .taamin-third-col::after {
+        font-size: 38px;
+        margin-left: 1vw;
+    }
+    .portfolio-design-taamin-third-section:hover .taamin-third-col::after {
+        scale: 1.1;
+        margin-left: 2.5vw;
+        
+        }
+}
+@media(max-width:570px){
+    .passeig-third-col::after {
+        font-size: 5.1vw;
+        margin-left: 1.5vw;
+    }
+    .portfolio-design-passeig-third-section:hover .passeig-third-col::after{
+        scale: 1.2;
+        margin-left: 5.5vw;
+        margin-top: 10px;
+    }
+    .taamin-third-col::after {
+        font-size: 6.9vw;
+        margin-left: 2vw;
+    }
+    .portfolio-design-taamin-third-section:hover .taamin-third-col::after {
+    scale: 1.1;
+    margin-left: 4.5vw;
+    
+    }
+
+}
+.winne-third-section-image:hover{
+   scale:0.9;
+   filter: brightness(80%);
+}
+.portfolio-design-taamin-third-section:hover .tammin-third-section-image{
+   scale:0.9;
+   filter: brightness(30%);
+}
+.portfolio-design-fourth-section{
+    background-color: rgba(97, 134, 15, 1);
+}
+.portfolio-design-third-section-scooby{
+    background-color: rgba(87, 44, 126, 1);
+}
+.portfolio-design-third-section-kosy{
+    background-color: rgba(157, 199, 200, 1);
+}
+.portfolio-design-fourth-section{
+    font-family: 'Agrandir-Regular';
+    font-size: 31px;
+    line-height: 41.8px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+}
+.portfolio-design-third-section-scooby{
+    font-family: 'Agrandir-Regular';
+    font-size: 28px;
+    line-height: 38.8px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(255, 255, 255, 1);
+
+}
+.portfolio-design-third-section-kosy-heading{
+    font-family: 'Agrandir-Regular';
+    font-size: 30px;
+    line-height: 38.8px;
+font-weight: 400;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+color: rgba(42, 43, 45, 1);
+
+}
+.fourth-section-contact-f-heading-kosy{
+display: flex; 
+justify-content: center;
+position: relative;
+}
+.fourth-section-contact-upper-kosy{
+position: absolute;
+z-index: 1;
+width: 100%;
+height: 100%; 
+top: 0px;
+right: 0px;
+background-color: rgba(157, 199, 200, 1);
+animation: widthAnimation 6s infinite;
+}
+@keyframes widthAnimation {
+    0% {
+        width: 100%;
+    }
+    50% {
+        width: 0%;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+.fourth-secton-image-kosy{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+.fifth-image-wimmie{
+    width: 100%;
+}
+.fifth-image-winnie-design-heading{
+
+font-size: 52px;
+font-style: italic;
+font-weight: 900;
+line-height: 56px;
+letter-spacing: 0.3em;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+font-family: 'Agrandir-TextBold';
+color: rgba(97, 134, 15, 1);
+
+}
+.sixth-image-section-winne{
+    display: flex
+    ;
+    width: 100%;
+        height: 28vw;
+        overflow: hidden;
+        align-items: center;
+        transition: all 2s ease;
+}
+.fifth-image-section-scooby{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.fifth-image-section-scooby-upper-section{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 18%;
+    transition: all 1s ease;
+}
+.fifth-image-section-scooby:hover
+.fifth-image-section-scooby-upper-section{
+    background-color: white;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    height: 0%;
+}
+
+.fifth-scooby-image{
+    width: 100%;
+    transform: translateY(18%);
+    transition: all 1s ease;
+}
+.fifth-image-section-scooby:hover
+.fifth-scooby-image{
+    width: 100%;
+    transform: translateY(0%);
+}
+.sixth-winne-image{
+    width: 100%;
+    padding-top: 9vw;
+    transition: all 2s ease;
+
+}
+
+.sixth-image-row-winne{
+    height:46vw;
+    display: flex;
+    align-items: center;
+}
+.sixth-image-section-winne:hover{
+    height:46vw;
+    transition: all 2s ease;
+}
+.sixth-image-section-winne:hover .sixth-winne-image{
+    width: 100%;
+    padding-top: 0px;
+}
+.fourth-section-tammin-branding{
+    position: relative;
+    overflow: hidden;
+}
+.fourth-section-tammin-branding-paragraph{
+    font-family: 'Agrandir-ThinItalic';
+font-size: 40px;
+font-style: italic;
+font-weight: 100;
+text-align: center;
+
+
+}
+.fourth-section-tammin-branding-heading{
+    font-family: 'Agrandir-TextBold';
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 900;
+    text-align: center;
+    color: rgba(30, 137, 77, 1);
+    
+
+
+}
+.padding-set-fourth-section{
+    padding: 22vw 0px;
+}
+@media(min-width:990px){
+    .padding-set-fourth-section{
+        padding: 18vw 0px;
+    }
+
+}
+.taamin-fourth-section-upper-image{
+    /* background-image: url('../images/fourth-taamin-design.png'); */
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transition: all 1s ease;
+}
+.fourth-section-tammin-branding:hover .taamin-fourth-section-upper-image{
+    /* background-image: url('../images/'); */
+    position: absolute;
+    top: 0px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    transform: translateY(-100%);
+}
+.fifth-section-passeig-heading{
+    font-family: 'Agrandir-ThinItalic';
+font-size: 32px;
+font-style: italic;
+line-height: 40px;
+font-weight: 100;
+
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
+}
+.fourth-section-scooby{
+    margin-top:-2px ;
+}
+@media(max-width:990px){
+    .portfolio-scooby-first-section-heading ,
+    .portfolio-wagie-first-section-heading {
+      
+    font-size: 70px;
+    line-height: 105px;
+        
+    }
+
+    
+
+}
+.fourth-taamin-design{
+    width: 100%;
+    height: 100%;
+}
+@media (max-width: 768px) {
+    .portfolio-scooby-first-section-heading ,
+    .portfolio-wagie-first-section-heading {
+        line-height: 92px;
+        font-size: 60px;
+    
+            
+        }
+    
+}
+@media (max-width: 510px) {
+    .portfolio-scooby-first-section-heading ,
+    .portfolio-wagie-first-section-heading {
+        line-height:75px;
+        font-size: 50px;
+    
+            
+        }
+    
+}
+
+@media (max-width: 400px) {
+    .portfolio-scooby-first-section-heading ,
+    .portfolio-wagie-first-section-heading {
+        line-height: 65px;
+        font-size: 40px;
+    
+            
+        }
+    
+}
+@media(max-width:1200px){
+    .eleysa-sixth-section-paragraph {
+        font-size: 28px;      
+        line-height: 32px;
+    }
+    .fifth-section-passeig-heading{
+      
+        font-size: 27px;
+        }
+    .fourth-section-tammin-branding-paragraph {
+        font-size: 34px;
+    }
+    .fourth-section-tammin-branding-heading {
+       
+        font-size: 34px;
+    }
+    .p-responsive-sixth-upper-section-winne{
+       
+    font-size: 64px;
+    }
+    .fifth-image-winnie-design-heading {
+        font-size: 46px;
+    }
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 200px;
+        font-size: 39px;
+    }
+    
+    .portfolio-taamin-design-first-section-heading,
+    .portfolio-passeig-design-first-section-heading,
+    .portfolio-kallochi-design-first-section-heading,
+    .portfolio-eleysa-design-first-section-heading,
+    .portfolio-kosy-design-first-section-heading,
+    .earthvitalty-portfolio-first-section-heading ,
+    .portfolio-floating-bags-design-first-section-heading ,
+    .portfolio-Winne-first-section-heading ,
+    .portfolio-Earth-Vitality-first-section-heading {
+    font-family: 'Agrandir-TextBold';
+    font-size: 73px;
+}
+}
+@media(max-width:990px){
+    .eleysa-sixth-section-paragraph {
+        font-size: 19px;
+        line-height: 29px;
+    }
+    .fifth-section-passeig-heading{
+      
+        font-size: 23px;
+        line-height: 29px;
+        }
+    .fourth-section-tammin-branding-paragraph {
+        font-size: 26px;
+    }
+    .fourth-section-tammin-branding-heading {
+       
+        font-size: 26px;
+    }
+    .p-responsive-sixth-upper-section-winne {
+        font-size: 48px;
+        line-height: 73.6px;
+
+    }
+    .fifth-image-winnie-design-heading {
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .portfolio-taamin-design-first-section-heading,
+    .portfolio-passeig-design-first-section-heading,
+    .portfolio-kallochi-design-first-section-heading,
+    .portfolio-eleysa-design-first-section-heading,
+    .portfolio-kosy-design-first-section-heading,
+    .earthvitalty-portfolio-first-section-heading ,
+    .portfolio-floating-bags-design-first-section-heading ,
+    .portfolio-Winne-first-section-heading ,
+    .portfolio-Earth-Vitality-first-section-heading {
+        font-family: 'Agrandir-TextBold';
+        font-size: 53px;
+        line-height: 94px;
+    }
+
+.earthvitalty-portfolio-fourth-section-image{
+    height: 100%;
+}
+    .p-responsive-sixth-upper-section-earthvitaliity{
+        line-height: 46px;
+        font-size: 33px;
+    }
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 164px;
+        font-size: 27px;
+    }
+    
+
+}
+@media (max-width: 768px) {
+    .eleysa-sixth-section-paragraph {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .fifth-section-passeig-heading{
+      
+        font-size: 15px;
+        line-height: 24px;
+        }
+    .fourth-section-tammin-branding-paragraph {
+        font-size: 19px;
+    }
+    .fourth-section-tammin-branding-heading {
+       
+        font-size: 19px;
+    }
+    .fifth-image-winnie-design-heading {
+        font-size: 27px;
+        line-height: 41px;
+    }
+    .p-responsive-sixth-upper-section-winne {
+        font-size: 35px;
+        line-height: 54.6px;
+
+    }
+    .p-responsive-sixth-upper-section-earthvitaliity {
+        line-height: 36px;
+        font-size: 23px;
+    }
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 120px;
+        font-size: 19px;
+    }
+    .portfolio-taamin-design-first-section-heading,
+    .portfolio-passeig-design-first-section-heading,
+    .portfolio-kallochi-design-first-section-heading,
+    .portfolio-eleysa-design-first-section-heading,
+    .portfolio-kosy-design-first-section-heading,
+    .earthvitalty-portfolio-first-section-heading ,
+    .portfolio-floating-bags-design-first-section-heading ,
+    .portfolio-Winne-first-section-heading ,
+    .portfolio-Earth-Vitality-first-section-heading {
+        font-family: 'Agrandir-TextBold';
+        font-size: 38px;
+        line-height: 70px;
+    }
+}
+@media (max-width: 510px) {
+    .eleysa-sixth-section-paragraph {
+        font-size: 12px;
+        line-height: 15px;
+    }
+    .fifth-section-passeig-heading {
+        font-size: 2.8vw;
+        line-height: 4.5vw;
+    }
+    .fourth-section-tammin-branding-paragraph {
+        font-size: 3vw;
+    }
+    .fourth-section-tammin-branding-heading {
+       
+        font-size: 3vw;
+    }
+    .fifth-image-winnie-design-heading {
+        font-size: 21px;
+        line-height: 33px;
+    }
+    .p-responsive-sixth-upper-section-winne {
+        font-size: 35px;
+        line-height: 41.6px;
+
+        font-size: 27px;
+    }
+    .p-responsive-sixth-upper-section-earthvitaliity {
+        line-height: 30px;
+        font-size: 17px;
+    }
+    .portfolio-taamin-design-first-section-heading,
+    .portfolio-passeig-design-first-section-heading,
+    .portfolio-kallochi-design-first-section-heading,
+    .portfolio-eleysa-design-first-section-heading,
+    .portfolio-kosy-design-first-section-heading,
+    .earthvitalty-portfolio-first-section-heading ,
+    .portfolio-floating-bags-design-first-section-heading ,
+    .portfolio-Winne-first-section-heading ,
+    .portfolio-Earth-Vitality-first-section-heading {
+        font-family: 'Agrandir-TextBold';
+        line-height: 60px;
+        font-size: 33px;
+    }
+    .sixth-section-earth-vitality-row {
+        position: relative;
+        overflow: hidden;
+        height: 238px;
+    }
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 99px;
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 438px) {
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 95px;
+        font-size: 15px;
+    }
+}
+@media(min-width:1400px){
+    .eleysa-sixth-section-paragraph {
+        font-size: 39px;      
+        line-height: 43.8px;
+    }
+    .fifth-section-passeig-heading{
+      
+    font-size: 38px;
+    }
+    .sixth-section-earth-vitality-row {
+        position: relative;
+        overflow: hidden;
+        height: 529px;
+    }
+    .p-responsive-sixth-upper-section-winne{
+        font-family: 'Agrandir-ThinItalic';
+    font-size: 90px;}
+    .image-responsive-sixth-upper-section-earthvitaliity {
+        width: 82%;
+        height: 100%;
+    }
+}
+
+@media (max-width: 420px) {
+    .fifth-section-passeig-heading {
+        font-size: 2.6vw;
+        line-height: 4.5vw;
+    }
+}
+@media (max-width: 390px) {
+    .eleysa-sixth-section-paragraph {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .fifth-image-winnie-design-heading {
+        font-size: 17px;
+        line-height: 23px;
+    }
+    .p-responsive-sixth-upper-section-winne {
+        font-size: 22px;
+        line-height: 30.6px;
+    }
+    .p-responsive-sixth-upper-section-earthvitaliity {
+        line-height: 25px;
+        font-size: 14px;
+    }
+    .portfolio-taamin-design-first-section-heading,
+    .portfolio-passeig-design-first-section-heading,
+    .portfolio-kallochi-design-first-section-heading,
+    .portfolio-eleysa-design-first-section-heading,
+    .portfolio-kosy-design-first-section-heading,
+    .earthvitalty-portfolio-first-section-heading ,
+    .portfolio-floating-bags-design-first-section-heading ,
+    .portfolio-Winne-first-section-heading ,
+    .portfolio-Earth-Vitality-first-section-heading {
+        font-family: 'Agrandir-TextBold';
+        font-size: 27px;
+        line-height: 36px;
+    }
+    .portfolio-earthvitality-fourth-section-paragraph {
+        line-height: 75px;
+        font-size: 12px;
+    }
+}
+.taamin-portfolio-first-section-heading{
+    color: rgba(30, 137, 77, 1);
+}
+.portfolio-design-taamin-third-section{
+    position: relative;
+    background-color: rgba(245, 245, 239, 1);
+}
+.passeig-portfolio-first-section-heading{
+    color: rgba(74, 129, 145, 1);
+}
+.portfolio-passeig-second-section{
+background-color: rgba(148, 189, 211, 1);
+overflow: hidden;
+}
+.fourth-section-passeig-branding-heading{
+    color: rgba(177, 156, 59, 1);
+}
+.fifth-section-passeig-img{
+    width: 100%;
+}
+.eleysa-portfolio-first-section-heading{
+    color: rgba(176, 140, 120, 1);
+}
+.portfolio-eleysa-first-section{
+    background-color: rgba(255, 255, 255, 1);
+}
+.portfolio-eleysa-second-section{
+    background-color: rgba(214, 204, 194, 1);
+    overflow: hidden;
+}
+.color-portfolio-eleysa-fourth-section-paragraph{
+    color: rgba(213, 189, 175, 1);
+}
+.eleysa-seventh-section-img{
+    width: 100%;
+}
+.eleysa-sixth-section-img{
+    width: 100%;
+    margin-top: -54px;
+}
+.eleysa-sixth-section{
+    background-color: rgba(245, 245, 239, 1);
+}
+.scooby-fourth-section-second-image{
+    width: 100%;
+    margin-top: -10vw;
+}
+.portfolio-design-kosy-second-second-section{
+    background-color: rgba(140, 148, 155, 1);
+}
+.img-branding-first-section-animation {
+    max-width: 100%;
+    height: auto;
+    clip-path: inset(0% 0 0 0); /* Start with the bottom 10% hidden */
+    opacity: 1; /* Start with full opacity */
+    margin-top: -9%;
+
+}

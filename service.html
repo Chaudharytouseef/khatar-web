@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom Navbar</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg animate__animated animate__fadeInDown animate_slower">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo.png" alt="Logo" class="navbar-logo" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse ms-lg-4 ms-0" id="navbarNav">
+                <form class="d-flex me-auto">
+                    <div class="search-container mt-3 position-relative">
+                        <input type="text" class="search-input-navbar form-control" placeholder="Search" />
+                        <a class="search-icon-container">
+                            <i class="bi bi-search search-icon"></i>
+                        </a>
+                    </div>
+                </form>
+                <ul class="navbar-nav  ms-auto d-flex align-items-lg-center navbar-nav-gap mt-3">
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="service.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="service.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link navbar-link" href="blog.html">Blogs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="contact-us.html" class="btn navbar-link-contact ">Contact Us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row mt-5">
+            <div class="mt-5 d-flex justify-content-center">
+                <span class="service-heading mt-5">
+                    SERVICES
+                </span>
+            </div>
+        </div>
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-6">
+                    <span class="services-row-heading">
+                        WEB DESIGN & DEVELOPEMENT
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-8">
+                    <span class="services-row-heading">
+                        MEDIA PRODUCTION
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-6">
+                    <span class="services-row-heading">
+                        SOFTWARE DEVELOPEMENT
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-8">
+                    <span class="services-row-heading">
+                        DIGITAL MARKETING
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-6">
+                    <span class="services-row-heading">
+                        AI EXPERTISE
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row mt-4 services-rows  mx-2 mb-5">
+            <div class="row">
+                <div class="mt-3 col-lg-9">
+                    <span class="services-row-heading">
+                        SOCIAL MEDIA MANAGEMENT
+                    </span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="mt-lg-5 col-md-5 col-3">
+                    <img src="assets/images/ball.png" alt="" class="globe-service-img">
+                </div>
+                <div class="mt-lg-7  col-md-7 col-sm-8 col-9  d-flex justify-content-end align-items-end">
+                    <div class="mt-3 mb-4 text-end d-flex justify-content-end align-items-center  gap-3 ms-auto">
+                        <div class="service-row-end-heading text-end">
+                            Crafting Unique and Innovative
+                            designs
+                        </div>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor"
+                            class="service-row-arrow" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8" />
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="container">
+            <div class="row ">
+                <div class="mt-3 d-flex justify-content-center flip-element">
+                    <span class="footer-main-headng">
+                        CONTACT US
+                    </span>
+                </div>
+            </div>
+            <div class="row d-flex justify-content-between ">
+                <div class="col-lg-7 mb-4">
+                    <div class="mt-3 footer-fourth-content-animation ">
+                        <a href="#" class="footer-col-headng-first">
+                            ABOUT US
+                        </a>
+                    </div>
+                    <div class="mt-3 footer-fourth-content-animation">
+                        <a href="#" class="footer-col-headng-first">
+                            PORTFOLIO
+                        </a>
+                    </div>
+                    <div class="mt-3 footer-fourth-content-animation">
+                        <a href="#" class="footer-col-headng-first">
+                            SERVICES
+                        </a>
+                    </div>
+                    <div class="mt-3 footer-fourth-content-animation">
+                        <a href="#" class="footer-col-headng-first">
+                            BLOGS
+                        </a>
+                    </div>
+
+                </div>
+                <div class="col-lg-5 mb-4 d-flex justify-content-end align-items-end">
+                    <div class="mt-3 footer-first-content-animation d-grid justify-content-end">
+                        <a href="#" class="footer-col-headng-third  ">
+                            <span>Get a Free Consultation </span>
+                            <img src="assets/svg/Vector (43).svg" class="ms-2" alt="">
+                        </a>
+                        <br>
+                        <a href="#" class="footer-col-headng-third mt-3 ">
+                            <span>Try Our Demo</span>
+                            <img src="assets/svg/Vector (43).svg" class="ms-2" alt="">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class=" d-flex gap-5 flex-wrap footer-fourth-content-animation">
+                    <a href="#" class="footer-col-headng-second">
+                        <img src="assets/images/Frame 427321539.png" class="footer-links" alt="">
+                    </a>
+                    <a href="#" class="footer-col-headng-second">
+                        <img src="assets/images/Logo 11.png" class="footer-links" alt="">
+                    </a>
+                    <a href="#" class="footer-col-headng-second">
+                        <img src="assets/images/Logo 2.png" class="footer-links" alt="">
+                    </a>
+
+                </div>
+            </div>
+            <div class="row ">
+                <div class="mt-5 mb-3 d-flex justify-content-center footer-fourth-content-animation">
+                    <span class="footer-last-heading">
+                        Copyright KHATAR Co.,Ltd. All Rights Reserved.
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GSAP Reveal Animation</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f0f0f0;
+        }
+        .img-branding-first-section-animation {
+            max-width: 100%;
+            height: auto;
+            clip-path: inset(0% 0 0 0); /* Start with the bottom 10% hidden */
+            opacity: 1; /* Start with full opacity */
+       
+        }
+    </style>
+</head>
+<body>
+
+<img src="assets/images/earthvitality-shoping.png" alt="Sample Image" id="image" class="img-branding-first-section-animation">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+<script>
+    gsap.to(".img-branding-first-section-animation", { 
+        clipPath: "inset(10% 0 0 0)", // Reveal the full image
+   
+        duration: 3, 
+        ease: "power2.out"
+    });
+</script>
+
+</body>
+</html>
