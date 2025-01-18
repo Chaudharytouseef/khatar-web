@@ -4636,7 +4636,7 @@ a {
 
     .collapse-service-heading {
         font-family: 'Agrandir-tight';
-        font-size: 14px;
+        font-size: 18px;
         font-weight: 400;
         line-height: 18.2px;
         text-align: left;
@@ -4656,6 +4656,10 @@ a {
         text-decoration-skip-ink: none;
         width: 90%;
         color: white !important;
+    }
+
+    .service-imp-text {
+        font-size: 18px;
     }
 }
 
