@@ -4905,6 +4905,12 @@ a {
     text-decoration-skip-ink: none;
 }
 
+
+
+
+/* saas and solution page  */
+
+
 .sas-first-heading {
     font-family: 'Agrandir-WideBlackItalic';
     font-size: 90px;
@@ -5285,6 +5291,42 @@ a {
     margin-top: 100vh;
 }
 
+@media (max-width:450px) {
+    .sas-first-heading {
+        font-family: 'Agrandir-WideBlackItalic';
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 32.5px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #F5F5EF !important;
+    }
+
+    .sas-first-heading span {
+        font-family: 'Agrandir-WideLight';
+        font-size: 25px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: 32.5px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #F5F5EF !important;
+    }
+
+    .sas-second-heading {
+        font-family: 'Agrandir-Narrow';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white !important;
+    }
+}
 
 .footer-first-content-animation {
     display: grid;
