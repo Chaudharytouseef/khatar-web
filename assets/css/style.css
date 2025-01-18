@@ -1230,7 +1230,7 @@ a {
     @media (max-width:650px) {
         .footer-main-headng {
             font-family: 'Agrandir-TextBold';
-            font-size: 46px !important;
+            font-size: 29px !important;
             font-size: 500px;
             font-weight: 800;
             line-height: 70px;
@@ -1242,9 +1242,9 @@ a {
 
     .footer-col-headng-first {
         font-family: 'Agrandir-grandheavy';
-        font-size: 30px;
+        font-size: 14px;
         font-weight: 800;
-        line-height: 39px;
+        line-height: 18.2px;
         text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -1264,9 +1264,9 @@ a {
 
     .footer-col-headng-third {
         font-family: 'Agrandir-bold';
-        font-size: 24px;
+        font-size: 11px !important;
         font-weight: 700;
-        line-height: 31.2px;
+        line-height: 15.6px;
         text-align: right;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
@@ -1276,13 +1276,18 @@ a {
 
     .footer-last-heading {
         font-family: 'Agrandir-Regular';
-        font-size: 24px;
+        font-size: 10px;
         font-weight: 400;
-        line-height: 31.2px;
-        text-align: center;
+        line-height: 13px;
+        text-align: left;
         text-underline-position: from-font;
         text-decoration-skip-ink: none;
         color: #767875;
+    }
+
+    .footer-links {
+        width: 26.99px;
+        height: 26.99px;
     }
 }
 
