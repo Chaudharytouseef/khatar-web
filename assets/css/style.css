@@ -3994,6 +3994,149 @@ a {
     background-color: white;
 }
 
+@media (max-width:450px) {
+    .servives-first-heading {
+        font-family: 'Agrandir-Narrow';
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 39px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white !important;
+    }
+
+    .small-services-first-heading {
+        font-family: 'Agrandir-widelight';
+        font-size: 10px;
+        font-weight: 300;
+        line-height: 13px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white !important;
+
+    }
+
+    .services-second-row-col-firsts-heading {
+        font-family: 'Agrandir-bold';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16.9px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+    }
+
+    .services-second-row-col-first-heading {
+        font-family: 'Agrandir-bold';
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 16.9px;
+        text-align: center;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+    }
+
+    .services-second-row-col {
+        background-image: url(../images/44b5693ea076d9cc5dc5c4db7563eda0.jpeg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 173px !important;
+        height: 219px !important;
+        min-height: 219px;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+        padding-bottom: 29% !important;
+        transition: filter 0.3s ease;
+        border-radius: 24px;
+    }
+
+    .services-second-row-col-second-heading {
+        font-family: 'Agrandir-Narrow';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+
+    .services-second-row-col-seconds-heading {
+        font-family: 'Agrandir-Narrow';
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 19.5px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: black;
+    }
+
+    .services-name .services {
+        font-family: 'Agrandir-Regular';
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15.6px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+    }
+
+    .services-name .services-active {
+        font-family: 'Agrandir-Regular';
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 15.6px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: white;
+    }
+
+    .services-third-row-first-heading {
+        font-family: 'Agrandir-bold';
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 23.4px;
+        text-align: left;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+    }
+
+    .services-third-row-second-heading {
+        font-family: 'Agrandir-Regular';
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 18.2px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+        color: #EA0000;
+
+    }
+
+    .services-third-row-third-heading {
+        font-family: 'Agrandir-GrandHeavy';
+        font-size: 30px;
+        font-weight: 800;
+        line-height: 39px;
+        text-align: right;
+        text-underline-position: from-font;
+        text-decoration-skip-ink: none;
+
+
+
+    }
+}
 
 /* portfolio page  */
 .portfolio-first-container {
@@ -5269,7 +5412,7 @@ input[type="checkbox"] {
 
 @media (max-width: 768px) {
     .servives-first-heading {
-        justify-content: space-between;
+        gap: 20px !important;
     }
 }
 
